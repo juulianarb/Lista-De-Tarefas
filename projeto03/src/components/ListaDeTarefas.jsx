@@ -32,7 +32,7 @@ function ListaDeTarefas() {
         onChange={(e) => setNovaTarefa(e.target.value)}
         placeholder="Adicione uma nova tarefa"
       />
-      <button onClick={adicionarTarefa}>Adicionar</button>
+      <button className="botaoAdicionar" onClick={adicionarTarefa}>Adicionar</button>
       <ul>
         {tarefas.map((tarefa, index) => (
           <li key={index}>

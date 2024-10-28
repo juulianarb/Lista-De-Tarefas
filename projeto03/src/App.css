@@ -38,6 +38,7 @@ body {
     background-color: transparent;
     border: none;
     text-decoration: none;
+    outline: none;
   }
   
   li {
@@ -56,5 +57,9 @@ body {
   }
 
   .botaoRemover:hover {
+    border-bottom: 2px #000 solid;
+  }
+
+  .botaoAdicionar:hover {
     border-bottom: 2px #000 solid;
   }
