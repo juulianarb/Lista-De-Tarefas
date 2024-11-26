@@ -16,7 +16,7 @@ body {
   }
 
   .caixa {
-    background-image: url(src/assets/images/CadernoEmBranco3.webp);
+    background-image: url(src/assets/images/CadernoEmBranco3.svg);
     background-size: cover;
     padding: 35px;
     height: 500px;
